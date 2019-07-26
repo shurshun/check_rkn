@@ -1,0 +1,11 @@
+ingress:
+  hosts:
+    - api.example.com
+
+resources:
+  limits:
+   cpu: 1
+   memory: 512Mi
+  requests:
+   cpu: 100mi
+   memory: 256Mi
